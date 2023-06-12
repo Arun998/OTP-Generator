@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Segoe UI';
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  height:100vh;
+  border: 2px solid darkmagenta;
+  justify-content: center;
+
+}
+
+/* Loader */
+#otp span {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  margin: 20px;
+  border: rgba(26, 23, 100, 0.614) 10px solid;
+  border-radius: 50%;
+  border-top-color: #0ff1b1;
+  animation: anim 1s linear infinite;
+}
+
+@keyframes anim {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Styling for OTP*/
+#otp {
+
+  font-size: 2.4rem;
+  font-weight: bold;
+  margin: 0 auto;
+  color: rgb(63, 154, 77);
+  letter-spacing: 5px;
+}
+
+button {
+  padding: 5px 10px;
+  font-size: 1.1rem;
+}
+/* End CSS */
+footer {
+  position: absolute;
+  bottom: 30px;
+  right: 0;
+  left: 0;
+  text-align: center;
+  color: grey;
+}
+
